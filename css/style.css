@@ -1,0 +1,36 @@
+.container{
+    margin: 30px auto;
+}
+
+.slider{
+    width: 512px;
+    height: 512px;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 2px solid black;
+    background: orange;
+}
+
+.slider_item{
+    display: flex;
+    width: 3072px;
+    height: 512px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.next_btn, .prev_btn{
+   width: 100px;
+   height: 45px;
+   line-height: 45px; 
+   font-size: 15px;
+   font-weight: 300;
+}
+ .prev_btn:hover, .next_btn:hover{
+    background: orange;
+}
